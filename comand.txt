@@ -1,4 +1,3 @@
-
 docker run -d --name chrome-node --network selenium-grid \
 -e SE_EVENT_BUS_HOST=selenium-hub \
 -e SE_EVENT_BUS_PUBLISH_PORT=4442 \
